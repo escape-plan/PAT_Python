@@ -18,8 +18,8 @@ for i in range(n):
 cover_nums = list(set(cover_nums))
 key_nums = [i for i in l if i not in cover_nums]
 key_nums.sort(reverse=True)
-i = 0
 print(" ".join(str(i) for i in key_nums)) #一行代替下面循环
+# i = 1
 # while(i < len(key_nums)):
 #     if (i == 0):
 #         print(key_nums[i], end = '')
