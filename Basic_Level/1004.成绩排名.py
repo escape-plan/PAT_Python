@@ -18,16 +18,3 @@ for i in range(n):
 
 print(l[max_idx][0] + " " + l[max_idx][1])
 print(l[min_idx][0] + " " + l[min_idx][1])
-
-# n = int(input())
-#
-# d = {}
-# l = []
-#
-# for i in range(n):
-#     a = input().split()
-#     d[int(a[2])] = a[0] + ' ' + a[1]
-#     l.append(int(a[2]))
-#
-# print(d[max(l)])
-# print(d[min(l)])
